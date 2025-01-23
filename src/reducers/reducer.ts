@@ -1,10 +1,5 @@
 import React from "react";
-import { ITodoItem } from "../types";
-
-export type TodoAction =
-  | { type: "ADD"; payload: string }
-  | { type: "TOGGLE"; payload: number }
-  | { type: "REMOVE"; payload: boolean };
+import { ITodoItem, TodoAction } from "../types";
 
 export const todoReducer = (todos: ITodoItem[], action: TodoAction) => {
   switch (action.type) {

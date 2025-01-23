@@ -1,7 +1,6 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 import styles from "./inputField.module.scss";
-import { TodoAction } from "../../reducers/reducer";
-import { Button } from "../button/Button";
+import { TodoAction } from "../../types";
 
 interface InputFieldProps {
   dispatch: React.Dispatch<TodoAction>;

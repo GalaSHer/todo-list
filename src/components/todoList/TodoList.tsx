@@ -1,8 +1,7 @@
 import React, { ReactNode } from "react";
-import { ITodoItem } from "../../types";
+import { ITodoItem, TodoAction } from "../../types";
 import { TodoItem } from "../todoItem/TodoItem";
 import styles from "./todoList.module.scss";
-import { TodoAction } from "../../reducers/reducer";
 
 interface ITodoListProps {
   todoItems: ITodoItem[];

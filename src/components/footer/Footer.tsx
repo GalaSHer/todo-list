@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./footer.module.scss";
 import { Button } from "../button/Button";
-import { TodoAction } from "../../reducers/reducer";
+import { TodoAction } from "../../types";
 
 interface FooterProps {
   dispatch: React.Dispatch<TodoAction>;

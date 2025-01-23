@@ -1,7 +1,6 @@
 import React from "react";
-import { ITodoItem } from "../../types";
+import { ITodoItem, TodoAction } from "../../types";
 import styles from "./todoItem.module.scss";
-import { TodoAction } from "../../reducers/reducer";
 
 interface ITodoItemProps {
   todoItem: ITodoItem;
